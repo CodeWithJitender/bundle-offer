@@ -145,40 +145,56 @@
                 Fill out the form and we'll be in touch within 24 hours
               </p>
 
-              <form action="#" class="space-y-5">
+              <!-- </form>
+              <div
+                id="responseMessage"
+                class="mt-4 text-center text-sm text-green-600 bg-green-50 p-3 rounded-lg font-bold hidden"
+              >
+                Thank you for your submission! We'll be in touch soon.
+              </div> -->
+              <form id="heroForm" class="space-y-5">
                 <div>
                   <label
                     class="block text-xs font-bold text-slate-700 uppercase mb-2 ml-1"
-                    >Name*</label
                   >
+                    Name*
+                  </label>
                   <input
                     type="text"
                     placeholder="Your full name"
                     class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
+                    name="name"
+                    required
                   />
                 </div>
 
                 <div>
                   <label
                     class="block text-xs font-bold text-slate-700 uppercase mb-2 ml-1"
-                    >Email*</label
                   >
+                    Email*
+                  </label>
                   <input
                     type="email"
                     placeholder="your@email.com"
                     class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
+                    name="email"
+                    required
                   />
                 </div>
 
                 <div>
                   <label
                     class="block text-xs font-bold text-slate-700 uppercase mb-2 ml-1"
-                    >Firm/ Company*</label
                   >
+                    Firm / Company*
+                  </label>
                   <input
                     type="text"
                     placeholder="Your organization"
                     class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
+                    name="organization"
+                    required
                   />
                 </div>
 
@@ -188,6 +204,12 @@
                 >
                   Submit Request
                 </button>
+
+                <!-- Success / Error Message -->
+                <p
+                  id="responseMessage"
+                  class="hidden mt-4 text-sm font-medium text-center"
+                ></p>
               </form>
             </div>
           </div>
@@ -883,7 +905,9 @@
 
     <section class="one-hub mb-10">
       <div class="main max-w-[1400px] mx-auto rounded-[20px] py-10 px-4">
-        <h1 class="font-poppins text-xl sm:text-4xl md:text-6xl mb-6 text-center">
+        <h1
+          class="font-poppins text-xl sm:text-4xl md:text-6xl mb-6 text-center"
+        >
           <span class="">
             Why International Leaders
             <br />
@@ -907,7 +931,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               Partnering with <b>200+ US accounting firms</b> via Glocal AS
             </p>
           </div>
@@ -925,7 +951,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               Supporting <b>100+ US law firms</b> through Glocal LPO
             </p>
           </div>
@@ -943,7 +971,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               Trusted by <b>1,000+ US staffing companies</b> through Glocal RPO
             </p>
           </div>
@@ -960,7 +990,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               Dedicated <b>real estate</b> support for your operations.
             </p>
           </div>
@@ -978,8 +1010,12 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
-              <b>Interior design and 3D</b> visualisation for your <br class="hidden md:block"> dream space.
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
+              <b>Interior design and 3D</b> visualisation for your
+              <br class="hidden md:block" />
+              dream space.
             </p>
           </div>
 
@@ -996,7 +1032,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               Experience across <b>100+ Fortune 500</b> companies
             </p>
           </div>
@@ -1013,7 +1051,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               Partnering with <b>200+ US accounting firms</b> via Glocal AS
             </p>
           </div>
@@ -1031,7 +1071,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               <b> 200,000+ sq. ft. of</b>
               state-of-the- art infrastructure
             </p>
@@ -1050,7 +1092,9 @@
               />
             </div>
 
-            <p class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]">
+            <p
+              class="text-[18px] md:text-[22px] leading-relaxed font-poppins max-w-[350px]"
+            >
               <b>1,000+</b> global professionals
             </p>
           </div>
@@ -1255,13 +1299,9 @@
 
     <!-- Footer Starts Here -->
     <section class="py-16 bg-white font-sans">
-      <div
-        class="max-w-[1400px] mx-auto px-6 grid md:grid-cols-2 gap-12 "
-      >
+      <div class="max-w-[1400px] mx-auto px-6 grid md:grid-cols-2 gap-12">
         <div>
-          <h2
-            class="font-apple text-4xl md:text-6xl mb-6"
-          >
+          <h2 class="font-apple text-4xl md:text-6xl mb-6">
             Ready to Boost Your <br class="hidden md:block" />
             Firms Capability?
           </h2>
@@ -1270,7 +1310,9 @@
             Scale smarter with one integrated virtual partner.
           </p>
 
-          <ul class="mt-8 space-y-6 text-lg font-extralight font-poppins text-[26px]">
+          <ul
+            class="mt-8 space-y-6 text-lg font-extralight font-poppins text-[26px]"
+          >
             <li class="flex items-center">
               <span class="mr-3">•</span> One integrated legal operations
               partner
@@ -1300,66 +1342,83 @@
           class="rounded-[2rem] bg-gradient-to-b from-rose-400 via-indigo-400 to-indigo-600 p-[1.5px]"
         >
           <div class="bg-white p-10 rounded-[1.9rem]">
-            <h3 class="text-3xl font-serif font-semibold">
-              Get Started Today
-            </h3>
+            <h3 class="text-3xl font-serif font-semibold">Get Started Today</h3>
 
             <p class="mt-3 text-gray-800 font-medium font-poppins text-xl">
               Fill out the form and we'll be in touch within 24 hours
             </p>
 
-            <form class="mt-8 space-y-6">
-              <div>
-                <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins"
-                  >Name*</label
-                >
-                <input
-                  type="text"
-                  placeholder="Your full name"
-                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
-                />
-              </div>
+            <form id="footerForm" class="mt-8 space-y-6">
+  <div>
+    <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins">
+      Name*
+    </label>
+    <input
+      type="text"
+      name="name"
+      placeholder="Your full name"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
+    />
+  </div>
 
-              <div>
-                <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins"
-                  >Email*</label
-                >
-                <input
-                  type="email"
-                  placeholder="your@email.com"
-                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
-                />
-              </div>
+  <div>
+    <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins">
+      Email*
+    </label>
+    <input
+      type="email"
+      name="email"
+      placeholder="your@email.com"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
+    />
+  </div>
 
-              <div>
-                <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins"
-                  >Firm/ Company*</label
-                >
-                <input
-                  type="text"
-                  placeholder="Your organization"
-                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
-                />
-              </div>
+  <div>
+    <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins">
+      Firm / Company*
+    </label>
+    <input
+      type="text"
+      name="organization"
+      placeholder="Your organization"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
+    />
+  </div>
 
-              <div>
-                <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins"
-                  >Legal Challenge*</label
-                >
-                <textarea
-                  rows="4"
-                  placeholder="Tell us about your current challenges"
-                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
-                ></textarea>
-              </div>
+  <div>
+    <label class="block text-lg font-medium text-gray-800 mb-2 font-poppins">
+      Legal Challenge*
+    </label>
+    <textarea
+      rows="4"
+      name="challenge"
+      placeholder="Tell us about your current challenges"
+      required
+      class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
+    ></textarea>
+  </div>
 
-              <button
-                type="submit"
-                class="w-full py-4 rounded-xl text-white text-lg font-bold bg-gradient-to-r from-[#9D3363] to-[#2E3C82] hover:opacity-95 transition-opacity shadow-lg"
-              >
-                Submit Request
-              </button>
-            </form>
+  <!-- Hidden fields for FormSubmit -->
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_template" value="table" />
+
+  <button
+    type="submit"
+    class="w-full py-4 rounded-xl text-white text-lg font-bold bg-gradient-to-r from-[#9D3363] to-[#2E3C82] hover:opacity-95 transition-opacity shadow-lg"
+  >
+    Submit Request
+  </button>
+
+  <!-- Response Message -->
+  <p
+    id="footerResponseMessage"
+    class="hidden mt-4 text-sm font-medium text-center"
+  ></p>
+</form>
+
           </div>
         </div>
       </div>
@@ -1376,27 +1435,26 @@
             Ready to transform your legal operations?
           </p>
           <p class="text-base opacity-80 font-poppins font-light">
-           Schedule a free consultation with our LPO experts today 
+            Schedule a free consultation with our LPO experts today
           </p>
         </div>
 
         <button
-          class="flex items-center gap-2 bg-white text-[#9D3363] font-bold px-8 py-3 rounded-xl shadow-md hover:bg-white transition-colors "
+          class="flex items-center gap-2 bg-white text-[#9D3363] font-bold px-8 py-3 rounded-xl shadow-md hover:bg-white transition-colors"
         >
-        <div class="gradient flex gap-2 items-center ">
-<svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-            />
-          </svg>
-          Book Strategy Call
-        </div>
-          
+          <div class="gradient flex gap-2 items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+              />
+            </svg>
+            Book Strategy Call
+          </div>
         </button>
       </div>
     </footer>
@@ -1412,33 +1470,137 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <!-- Custom JavaScript -->
-    <script>
-      $(document).ready(function () {
-        $("#designForm").on("submit", function (e) {
-          e.preventDefault();
+    <!-- <script>
+      const form = document.getElementById("heroForm");
+      const responseMessage = document.getElementById("responseMessage");
 
-          const form = $(this);
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
 
-          $.ajax({
-            method: "POST",
-            url: "https://formsubmit.co/ajax/jitender@digicots.com", // ✅ USE FORM ACTION
-            data: form.serialize(),
-            dataType: "json", // ✅ REQUIRED FOR FORMSUBMIT
-            success: function () {
-              $("#successMessage").removeClass("hidden").fadeIn();
-              form[0].reset();
+        fetch("https://formsubmit.co/ajax/jitender@digicots.com", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+          },
+          body: formData,
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              responseMessage.classList.remove("hidden");
 
-              setTimeout(function () {
-                $("#successMessage").fadeOut();
+              setTimeout(() => {
+                responseMessage.classList.add("hidden");
               }, 5000);
-            },
-            error: function () {
-              alert("Form submission failed. Please try again.");
-            },
+
+              form.reset();
+            } else {
+              responseMessage.textContent =
+                "Oops! Something went wrong. Please try again.";
+              responseMessage.classList.add("text-red-600");
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            responseMessage.textContent =
+              "An error occurred. Please try again later.";
+            responseMessage.classList.add("text-red-600");
           });
-        });
+      });
+    </script> -->
+    <script>
+      const form = document.getElementById("heroForm");
+      const responseMessage = document.getElementById("responseMessage");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(form);
+
+        fetch("https://formsubmit.co/ajax/jitender@digicots.com", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+          },
+          body: formData,
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              responseMessage.textContent =
+                "✅ Thank you! Your request has been submitted successfully.";
+              responseMessage.classList.remove("hidden", "text-red-600");
+              responseMessage.classList.add("text-green-600");
+
+              form.reset();
+
+              setTimeout(() => {
+                responseMessage.classList.add("hidden");
+              }, 5000);
+            } else {
+              throw new Error("Submission failed");
+            }
+          })
+          .catch((error) => {
+            responseMessage.textContent =
+              "❌ An error occurred. Please try again later.";
+            responseMessage.classList.remove("hidden", "text-green-600");
+            responseMessage.classList.add("text-red-600");
+          });
       });
     </script>
+    <script>
+  const footerForm = document.getElementById("footerForm");
+  const footerResponseMessage = document.getElementById(
+    "footerResponseMessage"
+  );
+
+  footerForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(footerForm);
+
+    fetch("https://formsubmit.co/ajax/jitender@digicots.com", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+      },
+      body: formData,
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.success) {
+          footerResponseMessage.textContent =
+            "✅ Thank you! We'll review your legal challenge and contact you shortly.";
+          footerResponseMessage.classList.remove(
+            "hidden",
+            "text-red-600"
+          );
+          footerResponseMessage.classList.add("text-green-600");
+
+          footerForm.reset();
+
+          setTimeout(() => {
+            footerResponseMessage.classList.add("hidden");
+          }, 5000);
+        } else {
+          throw new Error("Submission failed");
+        }
+      })
+      .catch((error) => {
+        footerResponseMessage.textContent =
+          "❌ Something went wrong. Please try again.";
+        footerResponseMessage.classList.remove(
+          "hidden",
+          "text-green-600"
+        );
+        footerResponseMessage.classList.add("text-red-600");
+      });
+  });
+</script>
+
+
     <script>
       $(".team-slider").slick({
         arrows: false,
