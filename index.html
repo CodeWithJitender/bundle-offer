@@ -66,11 +66,13 @@
         <div class="flex items-center justify-between h-20">
           <!-- Logo -->
           <div class="flex items-center">
-            <img
+           <a href="https://www.glocallpo.com/" target="_blank">
+             <img
               src="images/logo.png"
               alt="Glocal Design"
               class="h-10 sm:h-12 md:h-16 w-auto"
             />
+           </a>
           </div>
 
           <!-- Right Section -->
@@ -96,7 +98,7 @@
         class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-96 h-96 bg-pink-50 rounded-full blur-3xl opacity-60 -z-0"
       ></div>
 
-      <div class="max-w-[1400px] mx-auto px-6 relative z-10">
+      <div class="max-w-[1400px] mx-auto px-6 relative z-10" id="hero">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div class="space-y-8">
             <div>
@@ -116,7 +118,7 @@
             </div>
 
             <div
-              class="inline-flex items-center px-6 py-2 border border-slate-200 rounded-full bg-white text-sm text-slate-600 shadow-sm"
+              class="inline-flex items-center px-6 py-2 border border-slate-200 rounded-full bg-white text-[18px] text-slate-600 shadow-sm"
             >
               Seamless support. Serious savings.
             </div>
@@ -139,7 +141,7 @@
               ></div>
 
               <h2 class="font-serif text-3xl text-slate-900 mb-2">
-                Get Started Today
+                Book a Strategy Call
               </h2>
               <p class="text-slate-500 text-sm mb-8">
                 Fill out the form and we'll be in touch within 24 hours
@@ -153,6 +155,7 @@
                 Thank you for your submission! We'll be in touch soon.
               </div> -->
               <form id="heroForm" class="space-y-5">
+                <input type="hidden" name="_cc" value="sk@head-field.com, rohit@headfield.com">
                 <div>
                   <label
                     class="block text-xs font-bold text-slate-700 uppercase mb-2 ml-1"
@@ -215,7 +218,7 @@
           </div>
         </div>
 
-        <div class="mt-16 lg:mt-24 flex justify-center">
+        <!-- <div class="mt-16 lg:mt-24 flex justify-center">
           <a
             href="https://www.glocallpo.com/contact-us"
             target="_blank"
@@ -243,7 +246,7 @@
               </svg>
             </span>
           </a>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- Hero Ends Here -->
@@ -443,7 +446,7 @@
 
       <div class="mt-8 md:mt-20">
         <span
-          class="inline-flex items-center px-8 py-3 rounded-full bg-white border border-slate-200 text-slate-600 font-bold text-sm shadow-sm tracking-wide"
+          class="inline-flex items-center px-8 py-3 rounded-full bg-white border border-slate-200 text-slate-600 font-bold text-[18px] shadow-sm tracking-wide"
         >
           One partner. Complete support.
         </span>
@@ -479,7 +482,7 @@
                 <img src="images/glocal-lpo-white.png" alt="" />
               </a>
 
-              <p class="text-xl mb-12 relative z-10 font-poppins">
+              <p class="text-[24px] font-bold mb-12 relative z-10 font-poppins">
                 Your Legal Operations Backbone
               </p>
 
@@ -527,7 +530,7 @@
               </a>
 
               <p
-                class="text-xl font-medium mb-12 text-pink-100 relative z-10 font-poppins"
+                class="text-[24px] font-bold mb-12 text-pink-100 relative z-10 font-poppins"
               >
                Your Financial Control Team
               </p>
@@ -571,7 +574,7 @@
                 <img src="images/glocal-assist-white.png" alt="" />
               </a>
 
-              <p class="text-xl font-medium mb-12 text-blue-50 relative z-10">
+              <p class="text-[24px] font-bold mb-12 text-blue-50 relative z-10">
                 Your First Impression Team
               </p>
 
@@ -834,10 +837,9 @@
         <b>legal support</b>.
       </p>
 
-      <div class="my-8 mb-20 text-center">
+      <div class="my-8 mb-20 text-center flex align-middle">
         <a
-          href="https://www.glocallpo.com/contact-us"
-          target="_blank"
+          href="#hero"
           class="group flex items-center space-x-4 px-10 py-5 rounded-full bg-gradient-to-r from-pink-100 to-blue-100 border border-white shadow-sm hover:shadow-md transition-all m-auto"
         >
           <span class="text-indigo-950 font-poppins font-semibold text-lg"
@@ -1351,6 +1353,7 @@
             </p>
 
             <form id="footerForm" class="mt-8 space-y-6">
+              <input type="hidden" name="_cc" value="sk@head-field.com, rohit@headfield.com">
               <div>
                 <label
                   class="block text-lg font-medium text-gray-800 mb-2 font-poppins"
@@ -1400,12 +1403,12 @@
                 <label
                   class="block text-lg font-medium text-gray-800 mb-2 font-poppins"
                 >
-                  Legal Challenge*
+                  Your Requirment*
                 </label>
                 <textarea
                   rows="4"
                   name="challenge"
-                  placeholder="Tell us about your current challenges"
+                  placeholder="Tell us about your current requirments"
                   required
                   class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-indigo-400 outline-none placeholder:text-gray-400"
                 ></textarea>
@@ -1448,7 +1451,8 @@
           </p>
         </div>
 
-        <button
+        <a
+        href="#hero"
           class="flex items-center gap-2 bg-white text-[#9D3363] font-bold px-8 py-3 rounded-xl shadow-md hover:bg-white transition-colors"
         >
           <div class="gradient flex gap-2 items-center">
@@ -1462,9 +1466,9 @@
                 d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
               />
             </svg>
-            Book Strategy Call
+            Book a Strategy Call
           </div>
-        </button>
+        </a>
       </div>
     </footer>
     <!-- Footer Ends Here -->
